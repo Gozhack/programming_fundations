@@ -1,0 +1,90 @@
+Algorithm characteristics:
+*Algorithm complexity
+    1-Space complexity: How much memory does it require?
+    2-Time complexity: How much time does it take to complete? (How eficienty the algorithm is)
+*Inputs and output
+    1-What does the algorithm accept, and what are the results?
+*Classification
+    1-Serial/parallel, exact/approximate, deterministic/non-deterministic
+
+There are common algorithms, like:
+*Search algorithms:
+    1-Find specific data in a structure(e.g, a substring within a string)
+*Sorting algorithms:
+    1-Take a dataset and apply a sort order to it
+*Computational algorithms:
+    1-Given one set of data, calculate another(is a given number prime?)
+*Collection algorithms:
+    1-Work with collections of data (count specific items, navigate among data elements, filter
+    out unwanted data, etc.)
+
+
+# Understanding Algorithm Performance
+    *Measure how an algorithm respond to dataset size
+    *Big-O notation
+        1-Classifies performance as the input size grows.
+        2-"O" indicates the order of operation: time scale to perform and operation.
+        3-Many algorithms and data structure have more than one "O" value.
+        4-Data structures for e.g, can perform multiple type of operations:
+            *Inserting data, searching for data, deleting data, etc.
+
+# Common Big-O Terms
+    - Notation                          - Description           - Example
+    O(1) (read it as "Big O of 1")      Constant time           Looking up single element in an array   (less time)
+    O(log n)                            Logarithmic             Finding an item in a sorted array with a binary search
+    O(n)                                Linear time             Searching an unsorted array for a specific value
+    O(n log n)                          Log-Linear              Complex sorting algorithms like heap sort and merge sort
+    O(n²)                               Quadratic               Simple sorting algorithms, such as bubble sort, selection sort, and insertion sort  (more time)
+
+*An algorithm that takes eight times longer to operate on a data set that is twice as large is said to be cubic in time.
+*Exact and deterministic classification apply to Euclid's algorithm for finding the least common denominator.
+*An algorithm that is deterministic always produces the same outputs from a given set of inputs.
+
+
+## Overview of Data structures
+    *Used to organize data so it can be processed(list of items, three of folders and items, etc)
+
+# Common Data Structures
+    *Arrays
+    *Linked lists
+    *Stacks and queues
+    *Trees
+    *Hash tables
+
+#Data Structures : Array
+    *Collection of elements identified by index or key.
+    *Most of the cases start elements in 0
+
+#Data Structures : Linked Lists (Look for picture references of linked list on internet.)
+    *Collection of data elements, called nodes
+    *Contain reference to the next node in the list
+    *Hold whatever data the application needs
+    *Elements can be easily inserted and removed
+    *Underlying memory doesn't need to be reorganized
+    *Can't do constant-time random item access
+    *Item lookup is linear in time complexity (O(n))
+    *Linked list somentimes are preferred over arryas because they are easier and faster to reorganize
+
+#Data Structures : Stacks and queues
+    1-Stack : Collection that supports push and pop operations
+        *The las item pushed is the first one popped
+        *Used to:
+            -Expression processing (evaluate mathemathic expression)
+            -Backtracking: browser back stack, for example
+    2-Queue : Collection that supports adding and removing
+        *First item added is the first item out
+        *Used to:
+            -Order processing
+            -Messaging
+
+#Hash tables (data structure is most analogous to a dictionary)
+    *Key-to-value mappings are unique
+    *Hash tables are typically very fast for large data sets
+    *For small datasets, arrays are usually more efficient
+    *Hash tables don't order entries in a predictable way
+    
+#To check Arrays(just validate how is 48):
+    How many elements are in an [8,3,2] array?
+        Correct answer : 48
+
+#Recursion
